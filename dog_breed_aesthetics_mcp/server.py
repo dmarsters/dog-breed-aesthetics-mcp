@@ -7,7 +7,14 @@ for AI image generation prompts.
 
 from fastmcp import FastMCP
 from typing import Literal
-from .breed_data import BREED_DATABASE, get_breed_names, get_breed_data, normalize_breed_name
+
+# Use absolute imports for FastMCP Cloud compatibility
+from dog_breed_aesthetics_mcp.breed_data import (
+    BREED_DATABASE, 
+    get_breed_names, 
+    get_breed_data, 
+    normalize_breed_name
+)
 
 # Initialize FastMCP server
 mcp = FastMCP("dog-breed-aesthetics")
