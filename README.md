@@ -61,4 +61,4 @@ See documentation for complete breed list and characteristics.
 
 ## Author
 
-Dal Marsters - Lushy AI
+Dal Marsters - Lushy.app
